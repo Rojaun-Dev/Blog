@@ -150,9 +150,9 @@ params:
       featuredlink: "/"
       description: "Hak 5 Cloud C2 Packaged in a docker Container"
 
-  # Achievements
-  disable_achievements: false
-  achievements:
+  # Training
+  disable_Training: false
+  Training:
     - title: 
       description: Cyber Security Foundations
       img: /images/csfpc.png
