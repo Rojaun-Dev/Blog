@@ -32,25 +32,6 @@ Menus:
       title: Resume
       url: /pdfs/resume.pdf
       weight: 1
-      
-
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /ew
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /34545
-    #   parent: dropdown
-    #   weight: 2
     
 params:
   version: 3
@@ -72,28 +53,11 @@ params:
   #instagram: "https://instagram.com/"
   #facebook: "https://facebook.com"
   
-
-  # Custom social links
-  # customSocialLinks:
-  #   - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
-  #     url: "rojaunreid.com"
-  #   - fontAwesomeIconName: "fa fa-envelope"
-  #     url: "https://gmail.com"
-
   # About
   disable_about: true
   descripe_l1_person: "I leverage cutting-edge technology to support, manage and protect IT infrastructure"
   descripe_l2_person: "I'll be documenting my learning process using this site. You can find my work [here](#projects)"
   descripe_l3_person: "My full resume can be found here  "
-  # skills:
-  #   - name: Security Operations
-  #     percentage: 100
-  #   - name: Identity & Access Management
-  #     percentage: 100
-  #   - name: Communications & Network Security
-  #     percentage: 100
-  #   - name: Security & Risk Management
-  #     percentage: 100
 
   # Experience
   disable_experience: false
@@ -151,22 +115,22 @@ params:
       description: "Hak 5 Cloud C2 Packaged in a docker Container"
 
   # Training
-  disable_Training: false
-  Training:
-    - title: 
-      description: Cyber Security Foundations
+  disable_training: false
+  training:
+    - title: Cyber Security Foundations
+      description: 
       img: /images/csfpc.png
       url: /images/csfpc.png
-    - title: 
-      description: NSE 1 Network Security Associate
+    - title: Fortinet NSE 1
+      description: 
       img:  /images/Nse1.png
       url:  /images/Nse1.png
-    - title: 
-      description: NSE 2 Network Security Associate
+    - title: Fortinet NSE 2
+      description: 
       img: /images/Nse2.png
       url: /images/Nse2.png
-    - title:
-      description: NIST Cybersecurity Framework
+    - title: NIST Cybersecurity Framework
+      description: 
       img: /images/Nist.png
       url: /images/Nist.png
 
