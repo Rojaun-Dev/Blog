@@ -1,0 +1,184 @@
+baseURL: "https://rojaunreid.com/"
+languageCode: "en-us"
+title: "Rojaun Reid"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: 
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+
+# menus
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+
+    - identifier: resume
+      name: Resume
+      title: Resume
+      url: /pdfs/resume.pdf
+      weight: 1
+      
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /ew
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /34545
+    #   parent: dropdown
+    #   weight: 2
+    
+params:
+  version: 3
+  customCSS: false
+
+  favicon: "/images/fav.png"
+  description: "blog."
+
+  # home
+  disable_home: false
+  profile_image: "/images/profile.png"
+  name: "Rojaun Reid"
+  namecolor: ffc107
+  profession: "Cyber Security Analyst"
+  github: "https://github.com/Rojaun-Dev"
+  #gitlab: "https://gitlab.com"
+  linkedin: "https://www.linkedin.com/in/rojaun/"
+  twitter: "https://twitter.com/cyber_p1xl"
+  #instagram: "https://instagram.com/"
+  #facebook: "https://facebook.com"
+  
+
+  # Custom social links
+  # customSocialLinks:
+  #   - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
+  #     url: "rojaunreid.com"
+  #   - fontAwesomeIconName: "fa fa-envelope"
+  #     url: "https://gmail.com"
+
+  # About
+  disable_about: true
+  descripe_l1_person: "I leverage cutting-edge technology to support, manage and protect IT infrastructure"
+  descripe_l2_person: "I'll be documenting my learning process using this site. You can find my work [here](#projects)"
+  descripe_l3_person: "My full resume can be found here  "
+  # skills:
+  #   - name: Security Operations
+  #     percentage: 100
+  #   - name: Identity & Access Management
+  #     percentage: 100
+  #   - name: Communications & Network Security
+  #     percentage: 100
+  #   - name: Security & Risk Management
+  #     percentage: 100
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Digicel Group"
+      id: "digicel"   
+      role: "Senior Security Operations Specialist "
+      startdate: Nov 2021
+      enddate: present
+      featuredpoints:
+        - point: Manage cyber security incidents across 32 markets from detection to resolution 
+        - point: Supervise the configuration, monitoring, and execution of vulnerability scans on over 1000 networks using Tenable.io
+        - point: Develop and maintain communication network map to track outstanding vulnerabilities across 32 markets
+        - point: Coordinate cyber security operations between SOC and local markets to ensure security KPIs are kept above 95%
+        - point: Improve compliance and KPI scores by encouraging active communication between the markets and security operations team
+    - company: "Jamaica Broilers Group Limited"
+      id: "jbg"
+      role: "System Support Specialist"
+      startdate: Apr 2019
+      enddate: Oct 2021
+      featuredpoints:
+        - point: Installed, maintained, and repaired over 10,000 company and vendor systems
+        - point: Deployed and Administered IT infrastructure using tools such as SCCM, Lansweeper, Active Directory and Carbon Black
+        - point: Reduced customer complaints by over 60% through implementing predictive failure analysis
+        - point: Boosted end-user satisfaction by ensuring strict adherence to service request SLAs
+        - point: Created and managed over 4000 user accounts using Microsoft Active Directory
+        - point: Worked alongside the Security team to achieve a 100% success rate of mandatory security patches 
+
+  # Education
+  disable_education: true
+  education:
+    - degree: "BSc"
+      branch: "Information Communication Technology"
+      university: "Vocational Training Development Institute"
+      startedyear: "2017"
+      graduation: "2019"
+    - degree: "ASc"
+      branch: "Information Communication Technology"
+      university: "Vocational Training Development Institute"
+      startedyear: "2015"
+      graduation: "2017"
+    - degree: "High School Diploma"
+      branch: ""
+      university: "DeCarteret College"
+      startedyear: "2010"
+      graduation: "2015"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Cloud C2 Container"
+      img: /images/project.jpg
+      githublink: "https://github.com/Rojaun-Dev"
+      featuredlink: "/"
+      description: "Hak 5 Cloud C2 Packaged in a docker Container"
+
+  # Achievements
+  disable_achievements: false
+  achievements:
+    - title: 
+      description: Cyber Security Foundations
+      img: /images/csfpc.png
+      url: /images/csfpc.png
+    - title: 
+      description: NSE 1 Network Security Associate
+      img:  /images/Nse1.png
+      url:  /images/Nse1.png
+    - title: 
+      description: NSE 2 Network Security Associate
+      img: /images/Nse2.png
+      url: /images/Nse2.png
+    - title:
+      description: NIST Cybersecurity Framework
+      img: /images/Nist.png
+      url: /images/Nist.png
+
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, Reach out!
+  email: "hello@rojaunreid.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true

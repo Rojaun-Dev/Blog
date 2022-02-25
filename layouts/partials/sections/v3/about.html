@@ -1,0 +1,24 @@
+<div id="about" class="about-backdark about-back">
+  <section class="pt-5">
+    <div class="container-fluid">
+      <div class="text-dark text-center h3">About Me</div>
+        <div class="about-content text-center">
+          <div data-aos="zoom-in-up" data-aos-offset="50" data-aos-delay="50" data-aos-once="true"
+            data-aos-duration="900">
+              {{ .Site.Params.descripe_l1_person | markdownify }}
+              <br />
+              {{ .Site.Params.descripe_l2_person | markdownify }}
+            {{ if .Site.Params.email }}
+            <div class="py-3 pl-2">
+            <div class="text-center pt-3">
+              <a href="mailto:{{ .Site.Params.email }}?subject=Say hi!" target="_blank"
+                class="contact-btn btn text-muted">
+                {{ .Site.Params.getintouch | default "Get in Touch" }}
+              </a>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+    </div>
+  </section>
+</div>
