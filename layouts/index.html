@@ -102,9 +102,9 @@
     {{- partial "sections/v3/projects.html" . -}}
     {{ end }}
 
-    {{ if .Site.Params.disable_Training }}
+    {{ if .Site.Params.disable_training }}
     {{ else }}
-    {{- partial "sections/v3/Training.html" . -}}
+    {{- partial "sections/v3/training.html" . -}}
     {{ end }}
 
     {{ if .Site.Params.disable_contact }}
@@ -128,7 +128,7 @@
       $(".text-muted").toggleClass("darkmode-text-muted")
       $(".about-backdark").toggleClass("about-back");
       $(".education-backdark").toggleClass("education-back");
-      $(".Training-backdark").toggleClass("Training-back");
+      $(".training-backdark").toggleClass("training-back");
       $(".dropdown-menu").toggleClass('darkmode-dropdown-menu');
     }
   </script>
@@ -156,7 +156,7 @@
       $(".fa-sun").toggleClass("d-none");
       $(".about-backdark").toggleClass("about-back");
       $(".education-backdark").toggleClass("education-back");
-      $(".Training-backdark").toggleClass("Training-back");
+      $(".training-backdark").toggleClass("training-back");
       $("nav").toggleClass("navbar-dark");
       $("nav").toggleClass("navbar-light");
       $(".text-dark").toggleClass("darkmode-text-dark");
