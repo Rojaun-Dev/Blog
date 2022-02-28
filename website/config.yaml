@@ -106,7 +106,7 @@ params:
       graduation: "2015"
 
   # Projects
-  disable_projects: false
+  disable_projects: true
   projects:
     - name: "Cloud C2 Container"
       img: /images/project.jpg
