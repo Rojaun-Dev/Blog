@@ -121,14 +121,14 @@ params:
       description: 
       img:  /images/Nse1.png
       url:  /images/Nse1.png
-    - title: Cyber Security Foundations
-      description: 
-      img: /images/Soc Core Skills.PNG
-      url: /images/Soc Core Skills.PNG
     - title: Fortinet NSE 2
       description: 
       img: /images/Nse2.png
       url: /images/Nse2.png
+    - title: Soc Core Skills
+      description: 
+      img: /images/Soc Core Skills.PNG
+      url: /images/Soc Core Skills.PNG
     - title: Soc Core Skills
       description: 
       img: /images/Threat Hunting.PNG
