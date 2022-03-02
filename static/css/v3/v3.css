@@ -337,8 +337,8 @@ a:hover {
 }
 .achiv-card {
   height: 400px;
-  width: 100%;
-  background-size: cover;
+  width: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
