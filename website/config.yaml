@@ -116,15 +116,15 @@ params:
 
   # Training
   disable_training: false
-  training:
-    - title: Cyber Security Foundations
-      description: 
-      img: /images/csfpc.png
-      url: /images/csfpc.png
+  training:   
     - title: Fortinet NSE 1
       description: 
       img:  /images/Nse1.png
       url:  /images/Nse1.png
+    - title: Cyber Security Foundations
+      description: 
+      img: /images/csfpc.png
+      url: /images/csfpc.png
     - title: Fortinet NSE 2
       description: 
       img: /images/Nse2.png
