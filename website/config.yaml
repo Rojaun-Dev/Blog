@@ -66,7 +66,7 @@ params:
       id: "digicel"   
       role: "Senior Security Operations Specialist "
       startdate: Nov 2021
-      enddate: present
+      enddate: Present
       featuredpoints:
         - point: Manage cyber security incidents across 32 markets from detection to resolution 
         - point: Supervise the configuration, monitoring, and execution of vulnerability scans on over 1000 networks using Tenable.io
