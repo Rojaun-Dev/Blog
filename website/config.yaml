@@ -115,7 +115,7 @@ params:
       description: "Hak 5 Cloud C2 Packaged in a docker Container"
 
   # Training
-  disable_training: false
+  disable_training: true
   training:   
     - title: Fortinet NSE 1
       description: 
