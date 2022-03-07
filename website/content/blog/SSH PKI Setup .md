@@ -12,26 +12,26 @@ description: ""
 toc:
 ---
 
-The [SSH protocol](https://www.ssh.com/ssh/protocol/) supports many differnet methods of authentication. One of the most important and useful of these is Public Key authentication this can facilitate more secure connections and allow for easy and secure automations!
+The [SSH protocol](https://www.ssh.com/ssh/protocol/) supports many different methods of authentication. One of the most important and useful of these is Public Key authentication this can facilitate more secure connections and allow for easy and secure automation!
 
 ## What is SSH Public Key authentication?
 
 Instead of a password, SSH Public key authentication allows for the use of a cryptographic key pair for validation. This helps to mostly prevent/mitigate completely [brute force attacks](https://www.kaspersky.com/resource-center/definitions/brute-force-attack), as well as allow for the implementation of automated passwordless logins.
 
-## How does it work ?
+## How does it work?
 
 The SSH public key authentication has four steps:
 
 1. The private and public keys are generated.
 2. The public key is moved to the server we want to ssh into without a password.
 3. The server stores the key and adds it to its lists of approved public keys.
-4. The server will now allow anyone who is able to prove ownership of the corresponding private key access.
+4. The server will now allow anyone who can prove ownership of the corresponding private key access.
 
 ## Generation SSH Key Pair
 
-Okay so now that we know how it works we need to find out how to create and apply our very own key pairs.
+Okay, so now that we know how it works we need to find out how to create and apply our very own key pairs.
 
-#### On Linux the basic instructions are as follows
+#### On Linux, the basic instructions are as follows
 
 1. Login to the computer you will be using to connect to the server and use the SSH command to generate a key pair using the -t flag to specify the use of the RSA algorithm
 
@@ -51,6 +51,6 @@ You'll be prompted for your account password. Your public key will be copied to 
 
 5. Once the command completes, you will be able to log into the server via SSH without being prompted for a password. However, if you had set a passphrase earlier while creating your SSH key, you will be asked to enter the passphrase. Please note however this is your local `ssh` client asking you to decrypt the private key, and _NOT_ the remote server asking for a password.
 
-### And that's how you setup SSH Public Key authentication !!! In my next article i'll be demonstratiing a technique that can be used to steal SSH Private Keys 😉
+### And that's how you setup SSH Public Key authentication !!! In my next article, I'll be demonstrating a technique that can be used to steal SSH Private Keys 😉
 
 ### *Stay Tuned*
