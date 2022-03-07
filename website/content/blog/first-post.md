@@ -1,7 +1,7 @@
 ---
 title: "Blog Coming Soon"
 date: 2022-02-22T22:03:10-05:00
-draft: false
+draft: true
 github_link: "https://github.com/Rojaun-Dev"
 author: "Rojaun"
 tags:
