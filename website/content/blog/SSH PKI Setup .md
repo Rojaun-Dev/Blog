@@ -52,4 +52,4 @@ You'll be prompted for your account password. Your public key will be copied to 
 
 ### And that's how you setup SSH Public Key authentication !!! In my next article, I'll be demonstrating a technique that can be used to steal SSH Private Keys 😉
 
-<h1 align="center" style="font-style: italic;"> Stay Tuned</h1>
+<h1 align="center": style="font-style: italic;"> Stay Tuned</h1>
