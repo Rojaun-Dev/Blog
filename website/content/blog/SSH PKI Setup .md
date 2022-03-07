@@ -12,11 +12,11 @@ description: ""
 toc:
 ---
 
-The [SSH protocol](https://www.ssh.com/ssh/protocol/) supports many differnet methods of authentication. One of the most important and useful of these is Public Key authentication this can facilitate more secure connections and allow for easy and secure automations !
+The [SSH protocol](https://www.ssh.com/ssh/protocol/) supports many differnet methods of authentication. One of the most important and useful of these is Public Key authentication this can facilitate more secure connections and allow for easy and secure automations!
 
 ## What is SSH Public Key authentication?
 
-Instead of a password, SSH Public key authentication allows for the use of a cryptographic key pair for validation. This helps to mostly prevent/mitigate completely [brute force attacks](https://www.kaspersky.com/resource-center/definitions/brute-force-attack),as well as allow for the implementation of automated passwordless logins.
+Instead of a password, SSH Public key authentication allows for the use of a cryptographic key pair for validation. This helps to mostly prevent/mitigate completely [brute force attacks](https://www.kaspersky.com/resource-center/definitions/brute-force-attack), as well as allow for the implementation of automated passwordless logins.
 
 ## How does it work ?
 
@@ -25,7 +25,7 @@ The SSH public key authentication has four steps:
 1. The private and public keys are generated.
 2. The public key is moved to the server we want to ssh into without a password.
 3. The server stores the key and adds it to its lists of approved public keys.
-4. The server will now allow anyone who is able to prove ownership on the corresponding private key access.
+4. The server will now allow anyone who is able to prove ownership of the corresponding private key access.
 
 ## Generation SSH Key Pair
 
@@ -42,7 +42,7 @@ Okay so now that we know how it works we need to find out how to create and appl
 > `Output`
 > `Enter file in which to save the key (/home/test/.ssh/id_rsa)`
 
-3. The second prompt from `ssh-keygen` command will request that you enter a passphrase this is optional but it is highly recommended the security of a PKI authentication system relys on the Private key STAYING PRIVATE !! If a private key with no passphrase fall into malicious hands, they will be able to log in to any server configured with the corresponding public key
+3. The second prompt from `ssh-keygen` command will request that you enter a passphrase this is optional but it is highly recommended the security of a PKI authentication system relies on the Private key STAYING PRIVATE !! If a private key with no passphrase fall into malicious hands, they will be able to log in to any server configured with the corresponding public key
 4. Next you will need to copy the Public Key to your server, this can be done using [SFTP](https://www.ssh.com/academy/ssh/sftp) or [SCP](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) (for example, /home/test/.ssh/id_rsa.pub) to your account on the remote system (for example, server@testserver.com); for example, using command-line SCP:
 
 > `scp /home/test/.ssh/id_rsa.pub server@testserver.com`
