@@ -27,7 +27,7 @@ The SSH public key authentication has four steps:
 3. The server stores the key and adds it to its lists of approved public keys.
 4. The server will now allow anyone who can prove ownership of the corresponding private key access.
 
-## Generation SSH Key Pair
+## Generating SSH Key Pairs
 
 Okay, so now that we know how it works we need to find out how to create and apply our very own key pairs.
 
