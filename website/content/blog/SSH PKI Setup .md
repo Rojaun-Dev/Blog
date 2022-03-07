@@ -11,7 +11,6 @@ bg_image: ""
 description: ""
 toc:
 ---
-
 The [SSH protocol](https://www.ssh.com/ssh/protocol/) supports many different methods of authentication. One of the most important and useful of these is Public Key authentication this can facilitate more secure connections and allow for easy and secure automation!
 
 ## What is SSH Public Key authentication?
@@ -31,7 +30,7 @@ The SSH public key authentication has four steps:
 
 Okay, so now that we know how it works we need to find out how to create and apply our very own key pairs.
 
-#### On Linux, the basic instructions are as follows
+#### On Linux, the basic instructions are as follows :
 
 1. Login to the computer you will be using to connect to the server and use the SSH command to generate a key pair using the -t flag to specify the use of the RSA algorithm
 
@@ -53,4 +52,4 @@ You'll be prompted for your account password. Your public key will be copied to 
 
 ### And that's how you setup SSH Public Key authentication !!! In my next article, I'll be demonstrating a technique that can be used to steal SSH Private Keys 😉
 
-### *Stay Tuned*
+<h1 align="center" style="font-style: italic;"> Stay Tuned</h1>
