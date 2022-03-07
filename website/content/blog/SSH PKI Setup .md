@@ -11,9 +11,8 @@ bg_image: ""
 description: ""
 toc:
 ---
-# Setting up SSH Public Key authentication
 
-The [SSH protocol](https://www.ssh.com/ssh/protocol/)supports many differnet methods of authentication. One of the most important and useful of these is Public Key authentication this can facilitate more secure connections and allow for easy and secure automations !
+The [SSH protocol](https://www.ssh.com/ssh/protocol/) supports many differnet methods of authentication. One of the most important and useful of these is Public Key authentication this can facilitate more secure connections and allow for easy and secure automations !
 
 ## What is SSH Public Key authentication?
 
