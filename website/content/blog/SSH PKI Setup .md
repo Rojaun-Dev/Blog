@@ -50,6 +50,4 @@ You'll be prompted for your account password. Your public key will be copied to 
 
 5. Once the command completes, you will be able to log into the server via SSH without being prompted for a password. However, if you had set a passphrase earlier while creating your SSH key, you will be asked to enter the passphrase. Please note however this is your local `ssh` client asking you to decrypt the private key, and _NOT_ the remote server asking for a password.
 
-### And that's how you setup SSH Public Key authentication !!! In my next article, I'll be demonstrating a technique that can be used to steal SSH Private Keys 😉
-
-<h1 align="center": style="font-style: italic;"> Stay Tuned</h1>
+### And that's how you setup SSH Public Key authentication !!!
