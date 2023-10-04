@@ -43,7 +43,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "/images/avatar.webp"
+  profile_image: "/images/hacker.png"
   name: "Rojaun Reid"
   namecolor: ffc107
   profession: "Cyber Security Analyst"
