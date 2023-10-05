@@ -63,11 +63,23 @@ params:
   # Experience
   disable_experience: false
   experience:
+    - company: "Jamaica Money Market Brokers"
+      id: "jmmb"   
+      role: "Senior Security Operations Specialist "
+      startdate: Aug 2022
+      enddate: Current
+      featuredpoints:
+        - point: Manage cyber security incidents across 32 markets from detection to resolution 
+        - point: Supervise the configuration, monitoring, and execution of vulnerability scans on over 1000 networks using Tenable.io
+        - point: Develop and maintain communication network map to track outstanding vulnerabilities across 32 markets
+        - point: Coordinate cyber security operations between SOC and local markets to ensure security KPIs are kept above 95%
+        - point: Improve compliance and KPI scores by encouraging active communication between the markets and security operations team
+  experience:
     - company: "Digicel Group"
       id: "digicel"   
       role: "Senior Security Operations Specialist "
       startdate: Nov 2021
-      enddate: Present
+      enddate: Aug 2022
       featuredpoints:
         - point: Manage cyber security incidents across 32 markets from detection to resolution 
         - point: Supervise the configuration, monitoring, and execution of vulnerability scans on over 1000 networks using Tenable.io
